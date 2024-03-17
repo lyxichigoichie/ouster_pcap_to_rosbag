@@ -1,0 +1,15 @@
+pcap_path: "/home/lyxichigoichie/SSD/Dataset/zed_test/data2/20240311_1611_OS-1-128_992029000020.pcap" # path of pcap file
+meta_path: "/home/lyxichigoichie/SSD/Dataset/zed_test/data2/20240311_1611_OS-1-128_992029000020.json" # path of meta file
+
+bag:
+  save_bag: true
+  path: "/home/lyxichigoichie/SSD/Dataset/zed_test/data2/zed_test.bag"
+  mode: "a"
+
+pointcloud:
+  save_pcd: false
+  save_pcd_folder: "/home/lyxichigoichie/SSD/Dataset/zed_test/data2/pcd"
+
+imu:
+  save_txt: false
+  save_txt_path: "/home/lyxichigoichie/SSD/Dataset/zed_test/data2/imu.txt"
